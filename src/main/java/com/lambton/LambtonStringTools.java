@@ -16,6 +16,7 @@ public class LambtonStringTools
     {
 
         return null;
+
     }
     
     //2 - FORMAT INITIALS OF STRING
@@ -28,7 +29,9 @@ public class LambtonStringTools
     //3 - FIND MOST FREQUENT CHARACTER FROM STRING
     public static String mostFrequent(String s) 
     {
-        return null;
+        if(s.equals(null)){
+        return null;}
+
     }
     
     //4 - CONVERT BINARY NUMBER TO DECIMALS
