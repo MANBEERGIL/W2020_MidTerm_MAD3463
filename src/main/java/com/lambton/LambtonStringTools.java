@@ -31,6 +31,23 @@ public class LambtonStringTools
     {
         if(s.equals(null)){
         return null;}
+        int b=0;
+        int c=0;
+        char frequent;
+
+        for(int i=0;i<s.length();i++){
+            char a =s.charAt(i);
+            for(int j=1+1;j<s.length();j++){
+                if (a==s.charAt(i)){
+                    c++;
+                }
+                else{
+                    continue;
+                }
+            }
+            if(c>b)
+        }
+
 
     }
     
