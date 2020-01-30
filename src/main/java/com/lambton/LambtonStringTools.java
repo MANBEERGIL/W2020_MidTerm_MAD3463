@@ -15,8 +15,19 @@ public class LambtonStringTools
     public static String reverse(String s)
     {
 
+
         return null;
 
+
+    }
+
+    public static void main(String[] args) {
+        String s1 ="welcome";
+        String reverse ="   ";
+        for (int i =s1.length();i>=0;i--){
+            reverse =reverse+s1.charAt(i);
+            System.out.println(reverse);
+        }
     }
     
     //2 - FORMAT INITIALS OF STRING
@@ -45,9 +56,9 @@ public class LambtonStringTools
                     continue;
                 }
             }
-            if(c>b)
-        }
 
+        }
+     return null;
 
     }
     
